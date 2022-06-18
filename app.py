@@ -145,3 +145,4 @@ def buildResponse(statusCode, body=None):
         response['body'] = json.dumps(body, cls=CustomEncoder)
     return response
 
+print ("Hello world !")
